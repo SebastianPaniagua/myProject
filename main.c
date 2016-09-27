@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
-void delay(int milliseconds);
-
+//enums
 enum States { 
 	VERDE,
 	AMARILLO,
@@ -10,10 +9,14 @@ enum States {
 	ROJO_AMARILLO
 };
 
+//defines
 #define	DELAY_VERDE	3000
 #define	DELAY_AMARILLO 500
 #define	DELAY_ROJO 3000
 #define	DELAY_ROJOAMARILLO 500
+
+//functions
+void delay(int milliseconds);
 
 void pasarAVerde()
 {
@@ -39,6 +42,7 @@ void pasarARojoAmarillo()
 	
 }
 
+//MAIN
 int main()
 {
 	enum States state = VERDE;
