@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
-#this is a commento on B
+//this is a commento on B
 
 //enums
 enum States { 
