@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <time.h>
 
+//this is the comment on A
+
 //enums
 enum States { 
 	VERDE,
