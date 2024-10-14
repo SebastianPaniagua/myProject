@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
+//this is the comment on A
 //this is a commento on B
 
 //enums
